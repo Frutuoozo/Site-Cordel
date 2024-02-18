@@ -1,0 +1,120 @@
+ @charset "UTF-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Passion+One:wght@400;700;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+      --fonte01: verdana, Geneva, Tahoma,sans-serif;
+      --fonte03: 'Josefin Sans',sans-serif;
+      --fonte04: 'Passion One',sans-serif;
+}
+
+*{
+      margin: 0px;
+      padding: 0px;
+      font-size: 1em;
+}
+
+
+
+html, body{
+      background-color: darkgrey;
+      min-height: 90vh;
+      min-width: 90vh;
+      font-family: var(--fonte01);
+}
+
+
+/* cabeçario */
+header{
+      background-color: black;
+      color: white;
+      text-align: center;
+}
+
+header h1{
+      padding-top: 50px;
+       font-variant: small-caps;
+       font-family: var(--fonte04);
+       font-size: 10vw;
+}
+
+header p{
+      padding-bottom: 50px;
+}
+/* cabeçario */
+
+
+
+/* link */
+a{
+      color: white;
+       text-decoration: none;
+      font-weight: bold;
+}
+
+a:hover {
+      text-decoration: underline;
+}
+/* link */
+
+
+
+/* contudo/poema*/
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 20px;
+    font-family: var(--fonte03);
+    font-size: 2.5vw;
+      
+}
+
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+      height: 400px;
+      background-color: #1f1f1f;
+    color: #ffffff;
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.521);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+      display: inline-block;
+      background-color: #1b1b1be3;
+      padding: 10px;
+      border-radius: 10px;
+      text-shadow: 2px 2px 0px black;
+}
+
+section#img01{
+      background-image: url(midia/img/Cordel-P1.jpg);
+      background-position: right bottom;
+}
+
+section#img02{
+      background-image: url(midia/img/Cordel-P2.jpg);
+      background-position: center center;
+      background-size: cover;
+}
+
+/* contudo/poema*/
+
+
+
+/* rodape */
+footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 30px;
+}
+
+/* rodape */
