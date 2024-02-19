@@ -35,7 +35,7 @@ header h1{
       padding-top: 50px;
        font-variant: small-caps;
        font-family: var(--fonte03);
-       font-size: 6vw;
+       font-size: 8vw;
 }
 
 header p{
@@ -70,11 +70,6 @@ section{
     font-size: 3.3vh;
 }
 
-section p#começo{
-      padding-bottom: 20px;
-}
-
-
 section.normal{
     background-color: white;
     color: black;
@@ -92,8 +87,7 @@ section.imagem > p{
       display: inline-block;
       margin-right: 3vw;
       margin-left: 3vw;
-      margin-top: 3vw;
-      margin-bottom: 3vw;
+      min-height: 5vh;
       font-family: var(--fonte02);
       background-color: #1b1b1be3;
       padding: 10px;
