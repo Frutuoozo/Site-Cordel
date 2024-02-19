@@ -92,6 +92,8 @@ section.imagem > p{
       display: inline-block;
       margin-right: 3vw;
       margin-left: 3vw;
+      margin-top: 3vw;
+      margin-bottom: 3vw;
       font-family: var(--fonte02);
       background-color: #1b1b1be3;
       padding: 10px;
