@@ -76,6 +76,7 @@ section.normal{
 }
 
 section.imagem{
+      min-height: 60vh;
       background-color: #1f1f1f;
     color: #ffffff;
     box-shadow: inset 3px 3px 10px #000000ab;
@@ -87,7 +88,6 @@ section.imagem > p{
       display: inline-block;
       margin-right: 3vw;
       margin-left: 3vw;
-      min-height: 5vh;
       font-family: var(--fonte02);
       background-color: #1b1b1be3;
       padding: 10px;
@@ -96,13 +96,11 @@ section.imagem > p{
 }
 
 section#img01{
-      height: 235px;
       background-image: url(midia/img/Cordel-P1.jpg);
       background-position: center bottom;
 }
 
 section#img02{
-      height: 235px;
       background-image: url(midia/img/Cordel-P2.jpg);
       background-position: center center;
 }
