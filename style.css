@@ -90,6 +90,8 @@ section.imagem{
 
 section.imagem > p{
       display: inline-block;
+      margin-right: 3vw;
+      margin-left: 3vw;
       font-family: var(--fonte02);
       background-color: #1b1b1be3;
       padding: 10px;
@@ -100,7 +102,7 @@ section.imagem > p{
 section#img01{
       height: 235px;
       background-image: url(midia/img/Cordel-P1.jpg);
-      background-position: right bottom;
+      background-position: center bottom;
 }
 
 section#img02{
@@ -125,7 +127,7 @@ footer{
 
 footer img{
       display: inline-level;
-      padding-left: 3px;
+      padding-left: 2.6px;
      width: 19px;
      height: 19x;
 }
