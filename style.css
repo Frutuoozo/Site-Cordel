@@ -1,11 +1,12 @@
  @charset "UTF-8";
 
- @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Passion+One:wght@400;700;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&display=swap');
 
 :root {
       --fonte01: verdana, Geneva, Tahoma,sans-serif;
-      --fonte03: 'Josefin Sans',sans-serif;
-      --fonte04: 'Passion One',sans-serif;
+      --fonte02: 'Nunito', 'cursive';
+      --fonte03: 'Passion One', 'cursive';
+      --fonte04: 'Josefin Sans', 'cursive';
 }
 
 *{
@@ -18,7 +19,7 @@
 
 body{
       background-color: darkgrey;
-      min-height: 90vh;
+      min-height: 100vh;
       font-family: var(--fonte01);
 }
 
@@ -33,8 +34,8 @@ header{
 header h1{
       padding-top: 50px;
        font-variant: small-caps;
-       font-family: var(--fonte04);
-       font-size: 10vw;
+       font-family: var(--fonte03);
+       font-size: 6vw;
 }
 
 header p{
@@ -47,7 +48,7 @@ header p{
 /* link */
 a{
       color: white;
-       text-decoration: none;
+      text-decoration: none;
       font-weight: bold;
 }
 
@@ -63,11 +64,14 @@ a:hover {
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
     padding-left: 20px;
-    font-family: var(--fonte03);
-    font-size: 2.5vw;
-      
+    font-family: var(--fonte02);
+    line-height: 2em;
+    font-size: 3.3vh;
+}
+
+section p#começo{
+      padding-bottom: 20px;
 }
 
 
@@ -79,13 +83,14 @@ section.normal{
 section.imagem{
       background-color: #1f1f1f;
     color: #ffffff;
-    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.521);
+    box-shadow: inset 3px 3px 10px #000000ab;
     background-size: cover;
     background-attachment: fixed;
 }
 
 section.imagem > p{
       display: inline-block;
+      font-family: var(--fonte02);
       background-color: #1b1b1be3;
       padding: 10px;
       border-radius: 10px;
@@ -93,16 +98,15 @@ section.imagem > p{
 }
 
 section#img01{
-      width: 100%;
-      height: 100%;
+      height: 235px;
       background-image: url(midia/img/Cordel-P1.jpg);
       background-position: right bottom;
 }
 
 section#img02{
+      height: 235px;
       background-image: url(midia/img/Cordel-P2.jpg);
       background-position: center center;
-      background-size: cover;
 }
 
 /* contudo/poema*/
@@ -111,10 +115,19 @@ section#img02{
 
 /* rodape */
 footer{
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding: 30px;
+      font-size: 2.5vh;
+      font-family: var(--fonte04);
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 30px;
+}
+
+footer img{
+      display: inline-level;
+      padding-left: 3px;
+     width: 19px;
+     height: 19x;
 }
 
 /* rodape */
